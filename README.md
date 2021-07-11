@@ -1,6 +1,6 @@
 # TimeOfDevelopChartsTest
 
-En la Tabla siguiente se muestra los resultados obtenidos del experimento realizado bajo las mismas condiciones como se puede apreciar en los videos; donde se logró que EchartsTag obtuvo el menor tiempo en desarrollo de 14.17 minutos, seguido por HighCharts y JFreeChart. Por otro lado, también se hizo el control del tiempo sobre demora o latencia en la visualización de la gráfica, donde destaca Chart.js y HighCharts, seguido de EchartsTag y FusionCharts, para ello mencionar que las pruebas se hicieron con la misma máquina que tiene la capacidad de 32 GB de memoria RAM y CPU de 3.6GHz Intel Xeon.
+En la Tabla siguiente se muestra los resultados obtenidos del experimento realizado bajo las mismas condiciones como se puede apreciar en los videos; donde se observa que EchartsTag obtuvo el menor tiempo en desarrollo de 14.17 minutos en promedio de un par de casos, seguido por HighCharts y JFreeChart. Por otro lado, también se hizo el control del tiempo sobre la demora o latencia en la visualización de la gráfica, donde destaca Chart.js y HighCharts, seguido de EchartsTag y FusionCharts, para ello mencionar que las pruebas se hicieron en la misma máquina con una la capacidad de 32 GB de memoria RAM y CPU de 3.6GHz Intel Xeon.
 
 | Frameworks / Librerías | Tipo Grafico | Tiempo en desarrollo (min) | Promedio (min) | Evidencia | Promedio de Tiempo en Ejecución (ms) | Promedio (ms) |
 | :---         |     :---:      |       :---:  | :---:    |  :---: | :---:    |---: |
@@ -11,7 +11,7 @@ En la Tabla siguiente se muestra los resultados obtenidos del experimento realiz
 | HighCharts     | PieChart/BarChart      | 9 / 19.44    | 14.22 | https://youtu.be/5C9bpEX4YBI | 2.5 / 3.5  | 3 |
 
 
-En la siguiente tabla se aprecia los resultados donde EchartsTag obtiene un mayor puntaje, por lo que sería una buena propuesta en optar por esta alternativa, ya que FusionCharts e HighCharts son las que más se asemejan en cuanto a interactividad; sin embargo, implican costos para el uso comercial además de requerir conocimientos en JavaScript. Por otro lado, podría ser Charts.js sin embargo implica mayor tiempo en desarrollo y no ofrece una información más clara como las otras alternativas, y no se podría optar por JFreeChart ya que no son interactivas.
+En la siguiente tabla se aprecia los resultados donde EchartsTag obtiene un mayor puntaje sobre los criterios planteados, por lo que sería una buena propuesta en optar por esta alternativa, ya que FusionCharts e HighCharts son las que más se asemejan en cuanto a interactividad; sin embargo, implican costos para su uso comercial, además de requerir conocimientos en JavaScript. Por otro lado, podría ser Charts.js sin embargo implica mayor tiempo en desarrollo y no ofrece una información más clara en cuanto a su manueal como las otras alternativas, mas no se podría optar por JFreeChart ya que no son interactivas.
 
 | Frameworks / Librerías |No requiere Conocimiento en JavaScript | Gráfico Interactivo | Soporte Canvas | Soporte de Gráficos 3D (3 dimensiones) | Código Open Source | No requiere pago (uso comercial) | Puntaje |
 | :---         |     :---:      |       :---:  | :---:    |  :---: | :---:    | :---: |---: |
